@@ -45,6 +45,10 @@ b {
     border-color: #323232;
 }
 
+.border-radius-2 {
+    border-radius: 2rem;
+}
+
 .box-shadow-nav {
     box-shadow: 0px 5px 10px #323232;
 }
@@ -131,9 +135,8 @@ b {
 /* TO CHANGE */
 
 footer {
-    height: 100px;
     background-color: #323232;
-    margin-bottom: 84px;
+    margin-bottom: 80px;
 }
 
 @media (min-width: 376px) {

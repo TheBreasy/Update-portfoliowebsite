@@ -1,0 +1,137 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+p,
+h1,
+h2 {
+    letter-spacing: 0.1rem;
+    line-height: 1.5rem;
+    text-align: left;
+    color: #000000;
+    font-weight: 300;
+}
+
+header {
+    padding-top: 79.66px;
+}
+
+b {
+    color: #2c88ff;
+    font-weight: 700;
+}
+
+.pt-7 {
+    padding-top: 1.75rem;
+}
+
+.text-xxs {
+    font-size: 0.7rem;
+}
+
+.bg-gray {
+    color: #323232;
+}
+
+.border-t-1 {
+    border-top: 1px solid;
+}
+
+.border-gray {
+    border-color: #323232;
+}
+
+.box-shadow-nav {
+    box-shadow: 0px 5px 10px #323232;
+}
+
+.nav-icon-marketing {
+    background-image: url(../images/marketing_icon.svg);
+    background-repeat: no-repeat;
+    background-size: 25px 25px;
+    background-position: 50% 0;
+}
+
+.nav-icon-code {
+    background-image: url(../images/coding_icon.svg);
+    background-repeat: no-repeat;
+    background-size: 25px 25px;
+    background-position: 50% 0;
+}
+
+.nav-icon-project {
+    background-image: url(../images/case_icon.svg);
+    background-repeat: no-repeat;
+    background-size: 25px 25px;
+    background-position: 50% 0;
+}
+
+.nav-icon-contact {
+    background-image: url(../images/contact_icon.svg);
+    background-repeat: no-repeat;
+    background-size: 25px 25px;
+    background-position: 50% 0;
+}
+
+.btn {
+    display: inline-block;
+    color: #ffffff;
+    background-color: #2c88ff;
+    padding: .7rem 20%;
+    border-radius: 2em;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    line-height: 1.5rem;
+    background-image: url("../images/arrow.svg");
+    background-position: 90% 50%;
+    background-repeat: no-repeat;
+    background-size: 1rem;
+    transition: .3s ease-out;
+}
+
+.btn:hover {
+    background-position-x: 95%;
+}
+
+.header-title {
+    padding-right: 35%;
+    line-height: 3rem;
+}
+
+.arrow-down {
+    padding: 1.5rem;
+    background-color: #2c88ff;
+    border-radius: 2rem;
+    background-image: url("../images/arrow-down.svg");
+    background-size: 1rem;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    animation-name: move-down;
+    animation-duration: .6s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-direction: alternate-reverse;
+}
+
+@keyframes move-down {
+    0% {
+        background-position-y: 50%;
+    }
+    100% {
+        background-position-y: 70%;
+    }
+}
+
+
+/* TO CHANGE */
+
+footer {
+    height: 100px;
+    background-color: #323232;
+    margin-bottom: 84px;
+}

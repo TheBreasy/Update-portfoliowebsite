@@ -2,15 +2,15 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-html {
-    scroll-behavior: smooth;
+p {
+    font-size: 17px;
 }
 
 p,
 h1,
 h2 {
     letter-spacing: 0.1rem;
-    line-height: 1.5rem;
+    line-height: 1.8rem;
     text-align: left;
     color: #000000;
     font-weight: 300;
@@ -134,4 +134,11 @@ footer {
     height: 100px;
     background-color: #323232;
     margin-bottom: 84px;
+}
+
+@media (min-width: 376px) {
+    .header-title {
+        padding-right: 50%;
+        line-height: 3.5rem;
+    }
 }
